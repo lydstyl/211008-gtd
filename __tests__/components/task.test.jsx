@@ -7,13 +7,13 @@ import { render, screen } from "@testing-library/react"
 import Task from "../../components/task"
 
 describe("Task", () => {
-  it("renders a heading", () => {
+  it("Has a heading name.", () => {
     render(<Task />)
 
-    const heading = screen.getByRole("heading", {
-      name: /task/i,
+    const headingName = screen.getByRole("heading", {
+      name: /^name:/i,
     })
 
-    expect(heading).toBeInTheDocument()
+    expect(headingName).toBeInTheDocument()
   })
 })

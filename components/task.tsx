@@ -1,3 +1,5 @@
 export default function Task() {
-  return <h1>Task</h1>
+  const name: string = "taskName"
+
+  return <h1>Name: {name}</h1>
 }
