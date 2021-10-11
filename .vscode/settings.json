@@ -1,0 +1,18 @@
+{
+  // ESLINT & PRETTIER
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // "prettier.tabWidth": 4,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 70,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+  // "eslint.options": {
+  //   "configFile": ".eslintrc.json"
+  // },
+  // "eslint.validate": ["javascript", "javascriptreact"],
+  // "eslint.alwaysShowStatus": true
+}
