@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css"
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <h1>Gabriel&apos;s GTD method</h1>
+      <h1>GTD</h1>
 
       <h2>Collect</h2>
       <ul>
