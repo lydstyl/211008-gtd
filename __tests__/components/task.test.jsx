@@ -4,7 +4,7 @@
 
 // import React from "react"
 import { render, screen } from "@testing-library/react"
-import Task from "../components/task"
+import Task from "../../components/task"
 
 describe("Task", () => {
   it("renders a heading", () => {
