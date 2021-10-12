@@ -7,7 +7,6 @@ export default function Page() {
   // This is possible because of the shared context configured in `_app.js` that
   // is used by `useSession()`.
   const [session, loading] = useSession()
-  console.log(`gb🚀 ~ Page ~ session`, session)
 
   const email = session?.user?.email
 
@@ -39,8 +38,6 @@ export default function Page() {
 
 // Export the `session` prop to use sessions with Server Side Rendering
 export async function getServerSideProps(context) {
-  console.log(`gb🚀 ~ getServerSideProps ~ context`)
-
   return {
     props: {
       session: await getSession(context),
