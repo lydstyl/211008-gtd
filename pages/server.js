@@ -9,9 +9,11 @@ export default function Page() {
   const [session, loading] = useSession()
   console.log(`gb🚀 ~ Page ~ session`, session)
 
+  const email = session?.user?.email
+
   return (
     <Layout>
-      <h1>Server Side Rendering {session.user.email}</h1>
+      <h1>Server Side Rendering {email || ''}</h1>
 
       <p>
         This page uses the universal <strong>getSession()</strong>{' '}
