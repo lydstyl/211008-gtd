@@ -1,4 +1,4 @@
-export const tasks = JSON.stringify([
+export const tasks = [
   {
     uid: 'myuid',
     id: '1',
@@ -28,4 +28,4 @@ export const tasks = JSON.stringify([
     checklists: [],
     files: [],
   },
-])
+]

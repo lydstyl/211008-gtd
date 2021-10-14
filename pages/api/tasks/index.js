@@ -8,9 +8,9 @@ const getTasks = async (req, res) => {
 
   if (session) {
     res.send({
-      msg: 'This is protected content. You can access this content because you are signed in.',
+      msg: 'Protected GTD content. You can access this content because you are signed in.',
 
-      content: tasks,
+      tasks: JSON.stringify(tasks),
     })
   } else {
     res.send({
