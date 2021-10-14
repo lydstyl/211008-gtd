@@ -7,29 +7,10 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className={styles.container}>
-        <h1>GTD</h1>
-
-        <h2 id='collect-task-list-heading'>Collect list</h2>
-        <ul
-          aria-labelledby='collect-task-list-heading'
-          className='task-list'
-        ></ul>
-
-        <h2 id='todo-task-list-heading'>To do list</h2>
-        <ul
-          aria-labelledby='todo-task-list-heading'
-          className='task-list'
-        ></ul>
-
-        <h2 id='waiting-task-list-heading'>Waiting list</h2>
-        <ul
-          aria-labelledby='waiting-task-list-heading'
-          className='task-list'
-        ></ul>
+        <h1>GTD Home</h1>
 
         <p>Use local storage</p>
-        <p>A todo component :</p>
-        <p>must be</p>
+        <p>A Task component must have :</p>
         <ul>
           <li>uid</li>
           <li>id</li>
@@ -38,7 +19,7 @@ const Home: NextPage = () => {
           <li>labels including important, urgent, and so on</li>
         </ul>
 
-        <p>later</p>
+        <p>And might have later :</p>
         <ul>
           <li>description</li>
           <li>activity</li>
