@@ -1,4 +1,12 @@
-/* Set min-height to avoid page reflow while session loading */
+/* Set
+  min-height
+  to
+  avoid
+  page
+  reflow
+  while
+  session
+  loading */
 .signedInStatus {
   display: block;
   min-height: 4rem;

@@ -9,19 +9,19 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <h1>GTD</h1>
 
-        <h2 id='collect-task-list-heading'>Collect</h2>
+        <h2 id='collect-task-list-heading'>Collect list</h2>
         <ul
           aria-labelledby='collect-task-list-heading'
           className='task-list'
         ></ul>
 
-        <h2 id='todo-task-list-heading'>To do</h2>
+        <h2 id='todo-task-list-heading'>To do list</h2>
         <ul
           aria-labelledby='todo-task-list-heading'
           className='task-list'
         ></ul>
 
-        <h2 id='waiting-task-list-heading'>Waiting</h2>
+        <h2 id='waiting-task-list-heading'>Waiting list</h2>
         <ul
           aria-labelledby='waiting-task-list-heading'
           className='task-list'
