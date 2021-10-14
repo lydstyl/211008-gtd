@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 import Layout from '../components/layout'
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
   return (
     <Layout>
       <div className={styles.container}>
@@ -31,4 +31,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Page
