@@ -93,6 +93,12 @@ export default function Header() {
               <a>Protected tasks</a>
             </Link>
           </li>
+
+          <li className={styles.navItem}>
+            <Link href='/todo'>
+              <a>To do</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
